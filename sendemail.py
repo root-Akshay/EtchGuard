@@ -9,7 +9,7 @@ def send_mail(remail,hint):
         server.starttls()
         server.ehlo()
 
-        server.login("thetenpostmail@gmail.com", "amoldada23")
+        server.login("**********", "************")
         msg = EmailMessage()
         msg.set_content(f'We do not store any passwords for security reasons. Below is the hint hope it helps.\n Hint:{hint}')
 
